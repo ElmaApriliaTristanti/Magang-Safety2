@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){ window.addEventListene
 	UAGBButtonChild.init( '.uagb-block-88024e39' );
 });
 window.addEventListener("DOMContentLoaded", function(){
-	UAGBForms.init( {"block_id":"e6486c42","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"test@test.com","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Form Submission","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Please fill up the above captcha.","confirmationUrl":""}, '.uagb-block-e6486c42', 69 );
+	UAGBForms.init( {"block_id":"e6486c42","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":false,"afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Form Submission","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Please fill up the above captcha.","confirmationUrl":""}, '.uagb-block-e6486c42', 69 );
 });
 var ssLinksParent = document.querySelector( '.uagb-block-5149bae5' );
 ssLinksParent?.addEventListener( 'keyup', function ( e ) {
